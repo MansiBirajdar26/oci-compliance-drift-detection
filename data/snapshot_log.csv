@@ -3,4 +3,4 @@ date,snapshot_file,bucket_public,mfa_active,port_22_open,retention_days,label
 2026-06-03,snapshot_20260603_152248.json,0,1,1,365,non-compliant
 2026-06-04,snapshot_20260604_130357.json,0,1,1,365,non-compliant
 2026-06-04,snapshot_20260604_130510.json,0,1,1,365,non-compliant
-2026-06-04,snapshot_20260604_130626.json,0,1,1,365,non-compliant
+2026-06-04,snapshot_20260604_130626.json,0,1,1,365,non-compliant 
