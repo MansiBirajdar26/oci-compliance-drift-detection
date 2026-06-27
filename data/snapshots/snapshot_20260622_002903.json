@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-06-22 00:28:59.807775",
+  "parameters": {
+    "buckets": [
+      {
+        "name": "alex",
+        "is_public": false
+      },
+      {
+        "name": "config-snapshots",
+        "is_public": false
+      },
+      {
+        "name": "draco",
+        "is_public": false
+      },
+      {
+        "name": "secure-enterprise-vault",
+        "is_public": false
+      }
+    ],
+    "mfa": [
+      {
+        "user": "mansib0426@gmail.com",
+        "mfa_active": true
+      }
+    ],
+    "open_ports": [
+      {
+        "compartment": "CloudGovGuard",
+        "source": "0.0.0.0/0",
+        "port": "22",
+        "risky": true
+      },
+      {
+        "compartment": "CloudGovGuard",
+        "source": "0.0.0.0/0",
+        "port": "all",
+        "risky": true
+      },
+      {
+        "compartment": "CloudGovGuard",
+        "source": "10.0.0.0/16",
+        "port": "all",
+        "risky": true
+      },
+      {
+        "compartment": "CloudGovGuard",
+        "source": "0.0.0.0/0",
+        "port": "22",
+        "risky": true
+      }
+    ],
+    "audit_retention": {
+      "retention_period_days": 365,
+      "compliant": true
+    },
+    "mfa_compliance": {
+      "total_users": 1,
+      "users_without_mfa": 0,
+      "compliant": true
+    }
+  }
+}
