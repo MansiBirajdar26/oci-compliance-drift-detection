@@ -1,0 +1,5 @@
+Metric,Random Forest,Isolation Forest
+Accuracy,1.0,0.84
+Precision,1.0,1.0
+Recall,1.0,0.7333333333333333
+F1 Score,1.0,0.8461538461538461
